@@ -16,7 +16,7 @@ gem 'win32console', :platforms => [:mswin, :mingw]
 
 group :cucumber do
   gem 'cucumber', :require => false
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '~> 0.3.2'
   gem 'database_cleaner', :require => false
   gem 'webrat', :require => false
   gem 'rspec', '1.3.1', :require => 'spec'
